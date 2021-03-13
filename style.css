@@ -1,0 +1,89 @@
+@font-face{
+    font-family: inter;
+    src: url(./Inter/static/Inter-Regular.ttf);
+}
+:root{
+    --color1: hsl(240, 18%, 77%);
+    --color2: hsl(240, 38%, 20%);
+}
+
+*{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+   font-family: inter;
+}
+
+html{
+     font-size:62.5%;
+}
+body{
+    background-image: url(./images/pattern-bg.svg),url(./images/pattern-curve.svg),url(./images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position-x: 78%,0%,30%;
+    background-position-y: 50%,105%,35%;
+}
+.x{
+    position: relative;
+    width: 55%;
+    height: 54rem;
+    margin: 18rem auto;
+}
+.x p{
+    position: absolute;
+    z-index: 2;
+    width: 66rem;
+    height: 21rem;
+    font-size: 3.2rem;
+    margin-top: 18rem
+
+
+}
+.x .spans {
+    position: absolute;
+    display: block;
+    margin-top: 40rem;
+}
+.x div .name{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.x div .work{
+    font-size: 2.4rem;
+    color: var(--color1);
+}
+
+.x .img-container{
+    position:absolute;
+    left: 50%;
+    z-index: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.img-container .buttom-container{
+    width: 11rem;
+    height: 5.8rem;
+    border-radius: 5rem;
+    overflow: hidden;
+    position: absolute;
+    left: 15%;
+    top: 95%;
+}
+
+.img-container .buttom-container button{
+    background: #FFF9F9;
+    border: none;
+    width: 50%;
+    height: 5.8rem;
+    float: left;
+}
+
+.img-container .buttom-container button:hover{
+     cursor: pointer;
+}
+.img-container .buttom-container button:focus{
+    outline: none;
+}
