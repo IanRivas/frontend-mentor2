@@ -2,6 +2,10 @@
     font-family: inter;
     src: url(./Inter/static/Inter-Regular.ttf);
 }
+@font-face{
+    font-family: inter-bold;
+    src: url(./Inter/static/Inter-Bold.ttf);
+}
 :root{
     --color1: hsl(240, 18%, 77%);
     --color2: hsl(240, 38%, 20%);
@@ -20,12 +24,12 @@ html{
 body{
     background-image: url(./images/pattern-bg.svg),url(./images/pattern-curve.svg),url(./images/pattern-quotes.svg);
     background-repeat: no-repeat;
-    background-position-x: 78%,0%,30%;
+    background-position-x: 93%,0%,20%;
     background-position-y: 50%,105%,35%;
 }
 .x{
     position: relative;
-    width: 55%;
+    width: 80%;
     height: 54rem;
     margin: 18rem auto;
 }
@@ -45,7 +49,7 @@ body{
     margin-top: 40rem;
 }
 .x div .name{
-    font-weight: bold;
+    font-family: inter-bold;
     font-size: 2.4rem;
 }
 .x div .work{
@@ -57,10 +61,6 @@ body{
     position:absolute;
     left: 50%;
     z-index: 1;
-}
-
-.hide {
-    display: none;
 }
 
 .img-container .buttom-container{

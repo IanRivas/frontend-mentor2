@@ -1,0 +1,62 @@
+@media only screen and (max-width:600px){
+    body{
+        background-position-x: 60%,0%,50%;
+        background-position-y: 6%,110%,62%;
+        background-size: 90%,80%,15%;
+    }
+    
+    
+    .x{
+        width: 100%;
+        height: auto;
+        margin:5rem auto;
+        
+    }
+    .x p {
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        margin: 3rem auto 0 auto;
+        font-size: 18px;
+    }
+
+    .x .img-container{
+        position:static;
+        width: 70%;
+        margin: 0 auto;
+        left: 0;
+    }
+    .x .img-container img{
+        width: 100%;
+    }
+    .img-container .buttom-container{
+        position: relative;
+        left: calc(50% - 4rem);
+        bottom: 2rem;
+        width: 8.2rem;
+        height: 3.8rem;
+    }
+    .img-container .buttom-container button{
+        height: 4.5rem;
+    }
+    .img-container .buttom-container button img{
+        width: 30%;
+        margin: auto;
+    }
+    .x .spans{
+        position: static;
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: 1.5rem auto;
+    }
+    .x .spans span{
+        display: block;
+        width: 100%;
+        font-size: 15px;
+    }
+}
